@@ -15,7 +15,7 @@ add_library(lucenelib SHARED
 target_link_libraries(lucenelib
   lucene++
   lucene++-contrib
-  ${PROTOBUF_LIB})
+  ${PROTOBUF_LIBRARY})
 
 install(TARGETS lucenelib
   DESTINATION "${LIB_DESTINATION}"
